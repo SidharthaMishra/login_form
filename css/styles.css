@@ -35,11 +35,14 @@
             fieldset {
                 border: none;
                 margin: auto;
-                border: 1px solid red;
             }
             
             label {
                 margin: 5px 10px;
+            }
+            
+            .login-info-group {
+                padding-bottom: 0;
             }
             
             .login-info-group,
@@ -71,15 +74,22 @@
             }
             /* Additional Options */
             
+            .additional-options {
+                padding-top: 0;
+            }
+            
+            .options-wrapper {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
             .signed-in-label {
                 margin-left: 0;
                 font-weight: lighter;
             }
             
-            .forgot-pw {
-                float: right;
-                margin-top: 17px;
-            }
+            .forgot-pw {}
             /* Login Button */
             
             .submit-btn {
