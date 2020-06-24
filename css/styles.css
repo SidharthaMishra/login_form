@@ -57,10 +57,12 @@ body {
     display: inline;
 }
 
-.forgot-pw {
+.forgot-pw,
+.forgot-pw a {
     display: inline-block;
-    float: right;
+    /* float: right; */
     margin-top: 20px;
+    margin-left: 50px;
 }
 
 .submit-btn {
