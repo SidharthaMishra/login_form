@@ -1,7 +1,77 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
 /*General Setup*/
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+
+/* Form */
+
+.signin-form {
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-heading {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 1.5em;
+}
+
+.signin-form fieldset {
+    border: none;
+}
+
+.signin-form label {
+    margin: 5px 10px;
+}
+
+.signin-form input,
+.signin-form button {
+    display: block;
+    width: 96%;
+    margin: 20px auto;
+}
+
+.signin-form input[type="checkbox"] {
+    display: inline;
+    width: 10px;
+    margin-left: 10px;
+}
+
+.signin-form input[type="text"],
+.signin-form input[type="password"] {
+    padding: 5px;
+}
+
+.inline-label {
+    display: inline;
+}
+
+.forgot-pw {
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    height: 40px;
+}
+
+
+/* Clearfix */
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
