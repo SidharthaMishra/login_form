@@ -54,18 +54,19 @@
                         margin: auto;
                     }
                     
-                    label {
-                        margin: 5px 10px;
-                    }
-                    
                     .login-info-group {
                         padding-bottom: 0;
+                    }
+                    
+                    label {
+                        margin: 5px 10px;
                     }
                     
                     .login-info-group,
                     .additional-options {
                         font-weight: 300;
                     }
+                    /* Form Input Fields */
                     
                     .signin-form input,
                     .signin-form button {
@@ -85,10 +86,6 @@
                         width: 10px;
                         margin-left: 10px;
                     }
-                    
-                    .inline-label {
-                        display: inline-block;
-                    }
                     /* Additional Options */
                     
                     .additional-options {
@@ -102,6 +99,7 @@
                     }
                     
                     .signed-in-label {
+                        display: inline-block;
                         margin-left: 0;
                         font-weight: lighter;
                     }
@@ -118,6 +116,7 @@
                         cursor: pointer;
                         background-color: #222831;
                     }
+                    /* Media Queries */
                     
                     @media (min-width:768px) {
                         body {
