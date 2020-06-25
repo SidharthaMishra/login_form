@@ -92,12 +92,11 @@
                 margin-left: 0;
                 font-weight: lighter;
             }
-            
-            .forgot-pw {}
             /* Login Button */
             
             .submit-btn {
                 height: 40px;
                 background-color: #30475e;
+                border: none;
                 color: #fff;
             }
