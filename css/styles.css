@@ -17,6 +17,16 @@
             a {
                 text-decoration: none;
             }
+            
+            a:hover,
+            a:active,
+            a:visited {
+                color: #222831;
+            }
+            
+            a:hover {
+                text-decoration: underline;
+            }
             /* Form */
             
             .signin-form {
@@ -99,4 +109,10 @@
                 background-color: #30475e;
                 border: none;
                 color: #fff;
+            }
+            
+            .submit-btn:hover,
+            .submit-btn:active {
+                cursor: pointer;
+                background-color: #222831;
             }
