@@ -1,118 +1,135 @@
-                /* Fonts */
-                
-                @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
-                /*General Setup*/
-                
-                * {
-                    box-sizing: border-box;
-                    margin: 0;
-                    padding: 0;
-                }
-                
-                body {
-                    font-size: 16px;
-                    background-color: #ececec;
-                }
-                
-                a {
-                    text-decoration: none;
-                }
-                
-                a:hover,
-                a:active,
-                a:visited {
-                    color: #222831;
-                }
-                
-                a:hover {
-                    text-decoration: underline;
-                }
-                /* Form */
-                
-                .signin-form {
-                    font-family: 'Roboto', sans-serif;
-                    max-width: 600px;
-                    height: 70%;
-                    margin-top: 125px;
-                    margin-left: auto;
-                    margin-right: auto;
-                    padding: 50px 0;
-                    background-color: #fff;
-                }
-                
-                .form-heading {
-                    text-align: center;
-                    margin: 25px auto;
-                    font-size: 1.5em;
-                    color: #222831;
-                }
-                
-                fieldset {
-                    border: none;
-                    margin: auto;
-                }
-                
-                label {
-                    margin: 5px 10px;
-                }
-                
-                .login-info-group {
-                    padding-bottom: 0;
-                }
-                
-                .login-info-group,
-                .additional-options {
-                    font-weight: 300;
-                }
-                
-                .signin-form input,
-                .signin-form button {
-                    display: block;
-                    width: 96%;
-                    margin: 20px auto;
-                }
-                
-                .signin-form input[type="text"],
-                .signin-form input[type="password"] {
-                    margin-top: 10px;
-                    padding: 5px;
-                }
-                
-                .signin-form input[type="checkbox"] {
-                    display: inline-block;
-                    width: 10px;
-                    margin-left: 10px;
-                }
-                
-                .inline-label {
-                    display: inline-block;
-                }
-                /* Additional Options */
-                
-                .additional-options {
-                    padding-top: 0;
-                }
-                
-                .options-wrapper {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                }
-                
-                .signed-in-label {
-                    margin-left: 0;
-                    font-weight: lighter;
-                }
-                /* Login Button */
-                
-                .submit-btn {
-                    height: 40px;
-                    background-color: #30475e;
-                    border: none;
-                    color: #fff;
-                }
-                
-                .submit-btn:hover {
-                    cursor: pointer;
-                    background-color: #222831;
-                }
+                    /* Fonts */
+                    
+                    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+                    /*General Setup*/
+                    
+                    * {
+                        box-sizing: border-box;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    body {
+                        font-size: 16px;
+                        background-color: #ececec;
+                    }
+                    
+                    a {
+                        text-decoration: none;
+                    }
+                    
+                    a:hover,
+                    a:active,
+                    a:visited {
+                        color: #222831;
+                    }
+                    
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                    /* Form */
+                    
+                    .signin-form {
+                        font-family: 'Roboto', sans-serif;
+                        width: 100%;
+                        max-width: 600px;
+                        height: 70%;
+                        margin-top: 125px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding: 50px 0;
+                        background-color: #fff;
+                        box-shadow: 0 2px 2px #999;
+                    }
+                    
+                    .form-heading {
+                        text-align: center;
+                        margin: 25px auto;
+                        font-size: 1.5em;
+                        color: #222831;
+                    }
+                    
+                    fieldset {
+                        border: none;
+                        margin: auto;
+                    }
+                    
+                    label {
+                        margin: 5px 10px;
+                    }
+                    
+                    .login-info-group {
+                        padding-bottom: 0;
+                    }
+                    
+                    .login-info-group,
+                    .additional-options {
+                        font-weight: 300;
+                    }
+                    
+                    .signin-form input,
+                    .signin-form button {
+                        display: block;
+                        width: 96%;
+                        margin: 20px auto;
+                    }
+                    
+                    .signin-form input[type="text"],
+                    .signin-form input[type="password"] {
+                        margin-top: 10px;
+                        padding: 5px;
+                    }
+                    
+                    .signin-form input[type="checkbox"] {
+                        display: inline-block;
+                        width: 10px;
+                        margin-left: 10px;
+                    }
+                    
+                    .inline-label {
+                        display: inline-block;
+                    }
+                    /* Additional Options */
+                    
+                    .additional-options {
+                        padding-top: 0;
+                    }
+                    
+                    .options-wrapper {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    
+                    .signed-in-label {
+                        margin-left: 0;
+                        font-weight: lighter;
+                    }
+                    /* Login Button */
+                    
+                    .submit-btn {
+                        height: 40px;
+                        background-color: #30475e;
+                        border: none;
+                        color: #fff;
+                    }
+                    
+                    .submit-btn:hover {
+                        cursor: pointer;
+                        background-color: #222831;
+                    }
+                    
+                    @media (min-width:768px) {
+                        body {
+                            font-size: 18px;
+                        }
+                        .signin-form {
+                            margin-top: 190px;
+                        }
+                    }
+                    
+                    @media (min-width:1024px) {
+                        body {
+                            font-size: 20px;
+                        }
+                    }
