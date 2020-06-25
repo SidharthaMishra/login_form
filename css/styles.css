@@ -11,6 +11,7 @@
             
             body {
                 font-size: 16px;
+                background-color: #ececec;
             }
             
             a {
@@ -20,10 +21,13 @@
             
             .signin-form {
                 font-family: 'Roboto', sans-serif;
-                margin-top: 100px;
                 max-width: 600px;
+                height: 70%;
+                margin-top: 125px;
                 margin-left: auto;
                 margin-right: auto;
+                padding: 50px 0;
+                background-color: #fff;
             }
             
             .form-heading {
@@ -94,4 +98,6 @@
             
             .submit-btn {
                 height: 40px;
+                background-color: #30475e;
+                color: #fff;
             }
